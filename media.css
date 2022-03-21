@@ -1,10 +1,45 @@
 @media screen and (max-width: 419px) {
+  
+  /* Elimina i bordi di default ed rimpicciolimento font */
+  body{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 10px;
+  }
 
+  /* Elimina i margini assegnati al H1 ed li sostituisce con un padding */
+  h1{
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  /* Elimina i margini assegnati al H3 */
+  h3{
+    margin: 0;
+  }
+  /* Imposta un altezza alle immagini */
+  img {
+    height: 100px;
+  }
+  /* Imposta al container la larghezza della Viewport ed i margini a 0 */
+  .container {
+    width: 100vw;
+    margin:0;
+    padding-bottom: 10px;
+  }
+  /* Imposta alla classe "row" il 95% della larghezza della Viewport ed i margini a 0 */
+  .row {
+    width: 95%;
+    margin:0 auto;
+    text-align: center;
+  }
+  /* Cambia lo sfondo dei blocchi lezioni ed why */
   #lezioni,
   #why{
     background-color: #f2f2cd;
   }
-  
+
+  /* Assegna alle colonne la grandezza del blocco ed quindi si posizionano in colonna */
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -13,6 +48,32 @@
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-  width: 100%;
+    width: 100%;
+    margin:0 auto;
   }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    padding-bottom: 15px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top:-25px;
+    padding-bottom: 0px;
+  }
+
+  #why .row h3{
+    margin-top: -23px;
+  }
+
+  /* Scala le immagini al 60% */
+  #why .row img{
+    transform: scale(0.6);
+  }
+
 }
