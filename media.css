@@ -61,7 +61,6 @@
   #why .row>.second,
   #why .row>.third {
     margin-top:-25px;
-    padding-bottom: 0px;
   }
 
   #why .row h3{
@@ -108,10 +107,8 @@
     margin:0 auto;
     text-align: center;
     padding-bottom: 10px;
-    vertical-align: middle;
-
-    
   }
+  
   /* Cambia lo sfondo dei blocchi lezioni ed why */
   #lezioni,
   #why{
@@ -142,7 +139,6 @@
   #why .row>.second,
   #why .row>.third {
     margin-top:-15px;
-    padding-bottom: 0px;
   }
 
   /* Rimuove margine superiore */
