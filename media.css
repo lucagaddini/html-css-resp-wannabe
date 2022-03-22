@@ -1,23 +1,18 @@
 @media screen and (max-width: 419px) {
   
   /* Elimina i bordi di default ed rimpicciolimento font */
-  body{
+  *{
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    font-size: 10px;
   }
 
   /* Elimina i margini assegnati al H1 ed li sostituisce con un padding */
   h1{
     margin: 0;
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
-  /* Elimina i margini assegnati al H3 */
-  h3{
-    margin: 0;
-  }
   /* Imposta un altezza alle immagini */
   img {
     height: 100px;
@@ -27,7 +22,6 @@
   .row {
     width: 95%;
     margin:0 auto;
-    text-align: center;
     padding-bottom: 10px;
   }
   /* Cambia lo sfondo dei blocchi lezioni ed why */
@@ -54,23 +48,14 @@
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
-    padding-bottom: 15px;
+    padding: 10px 0;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    margin-top:-25px;
-  }
-
-  #why .row h3{
-    margin-top: -23px;
-  }
-
-  /* Scala le immagini al 60% */
-  #why .row img{
-    transform: scale(0.6);
-  }
+    padding-top:15px;
+  } 
 
 }
 
@@ -79,33 +64,26 @@
 @media screen and (min-width: 420px) and (max-width: 780px) {
   
   /* Elimina i bordi di default ed rimpicciolimento font */
-  body{
+  *{
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    font-size: 10px;
   }
 
   /* Elimina i margini assegnati al H1 ed li sostituisce con un padding */
   h1{
     margin: 0;
-    padding: 15px 0;
-  }
-
-  /* Elimina i margini assegnati al H3 */
-  h3{
-    margin: 0;
+    padding: 10px 0;
   }
   /* Imposta un altezza alle immagini */
   img {
-    height: 120px;
+    height: 140px;
   }
   
   /* Imposta alla classe "row" il 95% della larghezza della Viewport ed i margini a 0 */
   .row {
     width: 95%;
     margin:0 auto;
-    text-align: center;
     padding-bottom: 10px;
   }
   
@@ -132,23 +110,13 @@
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
-    padding-bottom: 15px;
+    padding: 10px 0;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    margin-top:-15px;
-  }
-
-  /* Rimuove margine superiore */
-  #why .row h3{
-    margin-top: -10px;
-  }
-
-  /* Scala le immagini al 60% */
-  #why .row img{
-    transform: scale(0.8);
-  }
+    padding-top:15px;
+  } 
 
 }
