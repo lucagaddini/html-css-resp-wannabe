@@ -115,7 +115,7 @@
   /* Cambia lo sfondo dei blocchi lezioni ed why */
   #lezioni,
   #why{
-    background-color: #ecbc7c;
+    background-color: #f2f2cd;
   }
 
   /* Assegna alle colonne la grandezza del blocco ed quindi si posizionano in colonna */
