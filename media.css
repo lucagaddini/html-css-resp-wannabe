@@ -1,66 +1,3 @@
-@media screen and (max-width: 419px) {
-  
-  /* Elimina i bordi di default ed rimpicciolimento font */
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
-  }
-
-  /* Elimina i margini assegnati al H1 ed li sostituisce con un padding */
-  h1{
-    margin: 0;
-    padding: 10px 0;
-  }
-
-  /* Imposta un altezza alle immagini */
-  img {
-    height: 100px;
-  }
-  
-  /* Imposta alla classe "row" il 95% della larghezza della Viewport ed i margini a 0 */
-  .row {
-    width: 95%;
-    margin:0 auto;
-    padding-bottom: 10px;
-  }
-  /* Cambia lo sfondo dei blocchi lezioni ed why */
-  #lezioni,
-  #why{
-    background-color: #f2f2cd;
-  }
-
-  /* Assegna alle colonne la grandezza del blocco ed quindi si posizionano in colonna */
-  #lezioni .row>.left,
-  #lezioni .row>.right,
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right,
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    width: 100%;
-    margin:0 auto;
-  }
-
-  #lezioni .row>.left,
-  #lezioni .row>.right,
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right{
-    padding: 10px 0;
-  }
-
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    padding-top:15px;
-  } 
-
-}
-
-
-
 @media screen and (min-width: 420px) and (max-width: 780px) {
   
   /* Elimina i bordi di default ed rimpicciolimento font */
@@ -75,6 +12,7 @@
     margin: 0;
     padding: 10px 0;
   }
+
   /* Imposta un altezza alle immagini */
   img {
     height: 140px;
@@ -117,6 +55,67 @@
   #why .row>.second,
   #why .row>.third {
     padding-top:15px;
-  } 
+  }
+}
 
+
+@media screen and (max-width: 419px) {
+  
+  /* Elimina i bordi di default ed rimpicciolimento font */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+  /* Elimina i margini assegnati al H1 ed li sostituisce con un padding */
+  h1{
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  /* Imposta un altezza alle immagini */
+  img {
+    height: 100px;
+  }
+  
+  /* Imposta alla classe "row" il 95% della larghezza della Viewport ed i margini a 0 */
+  .row {
+    width: 95%;
+    margin:0 auto;
+    padding-bottom: 10px;
+  }
+  
+  /* Cambia lo sfondo dei blocchi lezioni ed why */
+  #lezioni,
+  #why{
+    background-color: #f2f2cd;
+  }
+
+  /* Assegna alle colonne la grandezza del blocco ed quindi si posizionano in colonna */
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin:0 auto;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    padding: 10px 0;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    padding-top:15px;
+  }
 }
